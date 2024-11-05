@@ -1,0 +1,18 @@
+String is actually an class.
+public class demo {
+    public static void main(String arg[]) {
+        String str = new String("prakash");
+        System.out.println(str);
+    }
+
+}
+
+//Also this works.
+
+public class demo {
+    public static void main(String arg[]) {
+        String name = "prakash";
+        System.out.println(name);
+    }
+
+}
