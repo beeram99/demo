@@ -1,0 +1,36 @@
+//Same example using enhanced for loop.
+
+public class classa {
+
+    public static void main(String arg[]) {
+        student s1 = new student();
+        s1.rollno = 1;
+        s1.name = "pk";
+        s1.marks = 99;
+
+        student s2 = new student();
+        s2.rollno = 2;
+        s2.name = "rk";
+        s2.marks = 88;
+
+        student s3 = new student();
+        s3.rollno = 3;
+        s3.name = "jk";
+        s3.marks = 77;
+
+        student students[] = new student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+        for (student stud : students) {
+            System.out.println(stud.rollno + " " + stud.name + " " + stud.marks);
+        }
+
+    }
+}
+
+class student {
+    int rollno;
+    String name;
+    int marks;
+}
