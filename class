@@ -1,0 +1,14 @@
+public class index {
+    public static void main(String arg[]) {
+        addition dumb = new addition();
+        String hh = dumb.add();
+        System.out.println(hh);
+
+    }
+}
+
+class addition {
+    public String add() {
+        return "j";
+    }
+}
