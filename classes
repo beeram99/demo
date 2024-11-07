@@ -1,0 +1,25 @@
+//application of class
+
+public class sum {
+    public static void main(String arg[]) {
+        mycomputer obj = new mycomputer();
+        obj.mymusic();
+        String hh = obj.pen(2);
+        System.out.println(hh);
+
+    }
+}
+
+class mycomputer {
+    public void mymusic() {
+        System.out.println("my music");
+
+    }
+
+    public String pen(int cost) {
+        if (cost >= 10)
+            return "pen";
+
+        return "nothing";
+    }
+}
